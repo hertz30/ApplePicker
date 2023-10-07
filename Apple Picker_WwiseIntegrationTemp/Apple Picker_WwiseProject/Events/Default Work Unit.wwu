@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5033910E-3E24-4AD2-B000-75F414716F4A}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5033910E-3E24-4AD2-B000-75F414716F4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{40A0B63A-D57E-45B0-936D-746A0B46CFD1}">
+					<ChildrenList>
+						<Action Name="" ID="{2E7A2CA2-3F49-4463-8C65-02BBAB2EB55E}" ShortID="1008957119">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DemoMusic" ID="{8144C5ED-863C-4021-80D0-216D4CCF97C8}" WorkUnitID="{9BA422AD-6738-4BFC-A343-3906ADDB5FDE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2604F51D-12BD-441C-8D9D-61241E126F23}" ShortID="22578403">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Twinkle" ID="{6AFC15CD-AD47-4B9C-92EE-546D0EEA2504}" WorkUnitID="{9BA422AD-6738-4BFC-A343-3906ADDB5FDE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

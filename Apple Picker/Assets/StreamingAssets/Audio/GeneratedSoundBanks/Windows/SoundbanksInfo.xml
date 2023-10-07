@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Apple Picker_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Apple Picker_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Apple Picker_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="670697529" Language="SFX" Hash="1349411781">
+			<ObjectPath>\SoundBanks\Default Work Unit\MusicVer2</ObjectPath>
+			<ShortName>MusicVer2</ShortName>
+			<Path>MusicVer2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2137175289" Name="MusicPlayer" ObjectPath="\Events\Default Work Unit\MusicPlayer">
+					<IncludedMemoryFiles>
+						<File Id="34110285" Language="SFX">
+							<ShortName>BattleMusic\Glass1_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Glass1_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="81065470" Language="SFX">
+							<ShortName>BattleMusic\Twinkle1_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Twinkle1_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="183277175" Language="SFX">
+							<ShortName>BattleMusic\Picked Bass.wav</ShortName>
+							<Path>SFX\BattleMusic\Picked Bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="193283834" Language="SFX">
+							<ShortName>BattleMusic\Strings2_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Strings2_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="311482626" Language="SFX">
+							<ShortName>BattleMusic\Chinese Dizi Flute_3.wav</ShortName>
+							<Path>SFX\BattleMusic\Chinese Dizi Flute_3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="368426558" Language="SFX">
+							<ShortName>BattleMusic\Glass2_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Glass2_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="457618771" Language="SFX">
+							<ShortName>BattleMusic\Drums_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Drums_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="463951497" Language="SFX">
+							<ShortName>BattleMusic\Picked Bass_2.wav</ShortName>
+							<Path>SFX\BattleMusic\Picked Bass_2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="529599819" Language="SFX">
+							<ShortName>BattleMusic\Chinese Dizi Flute.wav</ShortName>
+							<Path>SFX\BattleMusic\Chinese Dizi Flute_D79FB2B7.wem</Path>
+						</File>
+						<File Id="592164179" Language="SFX">
+							<ShortName>BattleMusic\Glass3_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Glass3_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="691191022" Language="SFX">
+							<ShortName>BattleMusic\Twinkle3_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Twinkle3_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="775391479" Language="SFX">
+							<ShortName>BattleMusic\Twinkle2_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Twinkle2_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="808606970" Language="SFX">
+							<ShortName>BattleMusic\Slow Jam_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Slow Jam_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="960401953" Language="SFX">
+							<ShortName>BattleMusic\Strings1_1.wav</ShortName>
+							<Path>SFX\BattleMusic\Strings1_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="973637299" Language="SFX">
+							<ShortName>BattleMusic\Chinese Dizi Flute_2.wav</ShortName>
+							<Path>SFX\BattleMusic\Chinese Dizi Flute_2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4066707632">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

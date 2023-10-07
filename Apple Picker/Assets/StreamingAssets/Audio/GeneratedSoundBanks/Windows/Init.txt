@@ -1,0 +1,14 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	464518474	Glass 8ths			\Default Work Unit\Master Audio Bus\Music\Glass 8ths	
+	1150812190	Bassline			\Default Work Unit\Master Audio Bus\Music\Bassline	
+	2395877681	Glass Strings			\Default Work Unit\Master Audio Bus\Music\Glass Strings	
+	2742918925	Bassline 8ths			\Default Work Unit\Master Audio Bus\Music\Bassline 8ths	
+	3258749437	String 8ths			\Default Work Unit\Master Audio Bus\Music\String 8ths	
+	3363523641	Strings			\Default Work Unit\Master Audio Bus\Music\Strings	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
