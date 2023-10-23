@@ -14,14 +14,28 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 ﻿#if UNITY_EDITOR
 [UnityEditor.InitializeOnLoad]
 public class AkMacPluginActivator
 {
 	static AkMacPluginActivator()
 	{
-		AkPluginActivator.BuildTargetToPlatformName.Add(UnityEditor.BuildTarget.StandaloneOSX, "Mac");
-		AkBuildPreprocessor.BuildTargetToPlatformName.Add(UnityEditor.BuildTarget.StandaloneOSX, "Mac");
+		if (UnityEditor.AssetDatabase.IsAssetImportWorkerProcess())
+		{
+			return;
+		}
+
+		AkPluginActivator.RegisterBuildTarget(UnityEditor.BuildTarget.StandaloneOSX, new AkPluginActivator.PlatformConfiguration
+		{
+			WwisePlatformName = "Mac",
+			PluginDirectoryName = "Mac"
+		});
+
+		AkBuildPreprocessor.RegisterBuildTarget(UnityEditor.BuildTarget.StandaloneOSX, new AkBuildPreprocessor.PlatformConfiguration
+		{
+			WwisePlatformName = "Mac"
+		});
 	}
 }
 #endif

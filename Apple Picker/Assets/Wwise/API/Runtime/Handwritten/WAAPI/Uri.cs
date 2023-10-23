@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 /// <summary>URI strings to use in WAAPI calls. For a complete description, refer to the official Wwise SDK documentation.</summary>
 public class ak
 {

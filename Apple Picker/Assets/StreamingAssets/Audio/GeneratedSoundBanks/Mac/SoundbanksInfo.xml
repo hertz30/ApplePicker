@@ -1,91 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Apple Picker_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Apple Picker_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>../../../../../Apple Picker_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../Apple Picker_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\ApplePicker\Apple Picker\Apple Picker_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../Apple Picker_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
-	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="670697529" Language="SFX" Hash="1349411781">
-			<ObjectPath>\SoundBanks\Default Work Unit\MusicVer2</ObjectPath>
+		<SoundBank Id="670697529" Type="User" Language="SFX" Hash="{EF8E8931-DEE9-0DF4-ECD3-D2B6D4F87C67}">
 			<ShortName>MusicVer2</ShortName>
 			<Path>MusicVer2.bnk</Path>
-			<IncludedEvents>
-				<Event Id="2137175289" Name="MusicPlayer" ObjectPath="\Events\Default Work Unit\MusicPlayer">
-					<IncludedMemoryFiles>
-						<File Id="34110285" Language="SFX">
-							<ShortName>BattleMusic\Glass1_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Glass1_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="81065470" Language="SFX">
-							<ShortName>BattleMusic\Twinkle1_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Twinkle1_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="183277175" Language="SFX">
-							<ShortName>BattleMusic\Picked Bass.wav</ShortName>
-							<Path>SFX\BattleMusic\Picked Bass_D79FB2B7.wem</Path>
-						</File>
-						<File Id="193283834" Language="SFX">
-							<ShortName>BattleMusic\Strings2_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Strings2_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="311482626" Language="SFX">
-							<ShortName>BattleMusic\Chinese Dizi Flute_3.wav</ShortName>
-							<Path>SFX\BattleMusic\Chinese Dizi Flute_3_D79FB2B7.wem</Path>
-						</File>
-						<File Id="368426558" Language="SFX">
-							<ShortName>BattleMusic\Glass2_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Glass2_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="457618771" Language="SFX">
-							<ShortName>BattleMusic\Drums_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Drums_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="463951497" Language="SFX">
-							<ShortName>BattleMusic\Picked Bass_2.wav</ShortName>
-							<Path>SFX\BattleMusic\Picked Bass_2_D79FB2B7.wem</Path>
-						</File>
-						<File Id="529599819" Language="SFX">
-							<ShortName>BattleMusic\Chinese Dizi Flute.wav</ShortName>
-							<Path>SFX\BattleMusic\Chinese Dizi Flute_D79FB2B7.wem</Path>
-						</File>
-						<File Id="592164179" Language="SFX">
-							<ShortName>BattleMusic\Glass3_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Glass3_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="691191022" Language="SFX">
-							<ShortName>BattleMusic\Twinkle3_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Twinkle3_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="775391479" Language="SFX">
-							<ShortName>BattleMusic\Twinkle2_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Twinkle2_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="808606970" Language="SFX">
-							<ShortName>BattleMusic\Slow Jam_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Slow Jam_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="960401953" Language="SFX">
-							<ShortName>BattleMusic\Strings1_1.wav</ShortName>
-							<Path>SFX\BattleMusic\Strings1_1_D79FB2B7.wem</Path>
-						</File>
-						<File Id="973637299" Language="SFX">
-							<ShortName>BattleMusic\Chinese Dizi Flute_2.wav</ShortName>
-							<Path>SFX\BattleMusic\Chinese Dizi Flute_2_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+			<Media>
+				<File Id="226309743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Drums_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Drums_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="272723722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Glass3_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Glass3_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="327702501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Dizi2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Dizi2_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="420074239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Bass_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Bass_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="437196460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Glass2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Glass2_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="460274920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_GlassTwinkle_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_GlassTwinkle_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="597936396" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Strings1_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Strings1_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="640683039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_BassTwinkle_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_BassTwinkle_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="661279085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Glass1_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Glass1_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="714742742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Shaker_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Shaker_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="783933743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Dizi1_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Dizi1_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="857832623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Dizi3_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Dizi3_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="897725290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_StringTwinkle_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_StringTwinkle_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="901644686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Strings2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Strings2_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="928156539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Bass2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Bass2_130bpm4-4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2137175289" Name="MusicPlayer">
+					<MediaRefs>
+						<MediaRef Id="226309743"/>
+						<MediaRef Id="272723722"/>
+						<MediaRef Id="327702501"/>
+						<MediaRef Id="420074239"/>
+						<MediaRef Id="437196460"/>
+						<MediaRef Id="460274920"/>
+						<MediaRef Id="597936396"/>
+						<MediaRef Id="640683039"/>
+						<MediaRef Id="661279085"/>
+						<MediaRef Id="714742742"/>
+						<MediaRef Id="783933743"/>
+						<MediaRef Id="857832623"/>
+						<MediaRef Id="897725290"/>
+						<MediaRef Id="901644686"/>
+						<MediaRef Id="928156539"/>
+					</MediaRefs>
 				</Event>
-			</IncludedEvents>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2184386714">
-			<ObjectPath>Init</ObjectPath>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2F23C5E3-DF11-70DC-9F78-17D26CC336A6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="464518474" Name="Glass 8ths"/>
+				<Bus Id="1150812190" Name="Bassline"/>
+				<Bus Id="2395877681" Name="Glass Strings"/>
+				<Bus Id="2742918925" Name="Bassline 8ths"/>
+				<Bus Id="3258749437" Name="String 8ths"/>
+				<Bus Id="3363523641" Name="Strings"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
 		</SoundBank>
 	</SoundBanks>
+	<FileHash>{F55812CB-B520-F362-4BD6-99F7432BD880}</FileHash>
 </SoundBanksInfo>

@@ -81,7 +81,9 @@ public partial class AkBasePathGetter
 		if (string.IsNullOrEmpty(fullBasePath))
 			fullBasePath = AkWwiseInitializationSettings.ActivePlatformSettings.SoundbankPath;
 
-#if UNITY_EDITOR || !UNITY_ANDROID
+#if !UNITY_EDITOR && UNITY_WEBGL
+		fullBasePath = System.IO.Path.Combine(UnityEngine.Application.persistentDataPath, fullBasePath);
+#elif UNITY_EDITOR || !UNITY_ANDROID
 		fullBasePath = System.IO.Path.Combine(UnityEngine.Application.streamingAssetsPath, fullBasePath);
 #endif
 

@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 #if UNITY_EDITOR
 using UnityEditor;
 
@@ -27,6 +28,11 @@ public class AkWwisePostImportCallbackSetup
 
 	static AkWwisePostImportCallbackSetup()
 	{
+		if (UnityEditor.AssetDatabase.IsAssetImportWorkerProcess())
+		{
+			return;
+		}
+
 		var arguments = System.Environment.GetCommandLineArgs();
 		if (UnityEngine.Application.isBatchMode
 			&& System.Array.IndexOf(arguments, "-wwiseEnableWithNoGraphics") == -1)

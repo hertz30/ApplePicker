@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 ﻿#if UNITY_EDITOR_OSX || (UNITY_STANDALONE_OSX && !UNITY_EDITOR)
 public partial class AkBasePathGetter
 {

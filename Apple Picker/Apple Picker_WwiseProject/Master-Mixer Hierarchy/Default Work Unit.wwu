@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{438D54C1-B2A3-4DA7-8410-457E88A68622}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{438D54C1-B2A3-4DA7-8410-457E88A68622}" SchemaVersion="110">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{438D54C1-B2A3-4DA7-8410-457E88A68622}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{0C1C162A-0ACD-48E2-9BDA-CE9C7F389F16}" WorkUnitID="{7C343CC5-82D0-4EF3-8A90-42A1E2F59E5C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music" ID="{06EE0801-6F30-4844-99DA-870848E1122E}">
 							<ChildrenList>
-								<Bus Name="Strings" ID="{36699A00-D003-4685-9C9F-C525DCEC6297}">
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="Bassline" ID="{64D9B032-793B-432B-9C54-BF0A72823804}">
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="Glass Strings" ID="{61A7597D-DE44-4693-9F59-8803F9FF60D4}">
-									<ObjectLists/>
-								</Bus>
+								<Bus Name="Strings" ID="{36699A00-D003-4685-9C9F-C525DCEC6297}"/>
+								<Bus Name="Bassline" ID="{64D9B032-793B-432B-9C54-BF0A72823804}"/>
+								<Bus Name="Glass Strings" ID="{61A7597D-DE44-4693-9F59-8803F9FF60D4}"/>
 								<Bus Name="Bassline 8ths" ID="{E18E04C0-FE26-4A11-A2A4-50EE7D4801DA}">
-									<ObjectLists/>
 									<DuckingList>
 										<DuckItem>
 											<BusRef Name="Bassline" ID="{64D9B032-793B-432B-9C54-BF0A72823804}"/>
@@ -36,7 +29,6 @@
 									</DuckingList>
 								</Bus>
 								<Bus Name="Glass 8ths" ID="{85068986-9A61-49F2-8B36-A90C5299C442}">
-									<ObjectLists/>
 									<DuckingList>
 										<DuckItem>
 											<BusRef Name="Glass Strings" ID="{61A7597D-DE44-4693-9F59-8803F9FF60D4}"/>
@@ -50,7 +42,6 @@
 									</DuckingList>
 								</Bus>
 								<Bus Name="String 8ths" ID="{428230D0-3FB6-471B-8B64-8EE7440D20D0}">
-									<ObjectLists/>
 									<DuckingList>
 										<DuckItem>
 											<BusRef Name="Strings" ID="{36699A00-D003-4685-9C9F-C525DCEC6297}"/>
@@ -64,10 +55,8 @@
 									</DuckingList>
 								</Bus>
 							</ChildrenList>
-							<ObjectLists/>
 						</Bus>
 					</ChildrenList>
-					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

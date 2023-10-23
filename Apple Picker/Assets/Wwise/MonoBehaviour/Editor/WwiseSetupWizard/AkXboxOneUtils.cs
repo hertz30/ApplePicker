@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 public static class AkXboxOneUtils
 {
 	private static readonly int[] Usages = { 0, 1, 4, 7 };
@@ -26,8 +27,7 @@ public static class AkXboxOneUtils
 		var definitions = new[]
 		{
 			new SocketDefinition("WwiseDiscoverySocket", "24024", 1, "WwiseDiscovery"),
-			new SocketDefinition("WwiseCommandSocket", "24025", 0, "WwiseCommand"),
-			new SocketDefinition("WwiseNotificationSocket", "24026", 0, "WwiseNotification")
+			new SocketDefinition("WwiseCommandSocket", "24025", 0, "WwiseCommand")
 		};
 
 		foreach (var def in definitions)

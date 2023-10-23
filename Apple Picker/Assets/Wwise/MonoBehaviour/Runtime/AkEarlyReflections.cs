@@ -16,6 +16,7 @@ in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
 
+
 [UnityEngine.AddComponentMenu("Wwise/Spatial Audio/AkEarlyReflections")]
 [UnityEngine.RequireComponent(typeof(AkGameObj))]
 [UnityEngine.DisallowMultipleComponent]
@@ -40,7 +41,9 @@ public class AkEarlyReflections : UnityEngine.MonoBehaviour
 	private void OnEnable()
 	{
 		if (reflectionsAuxBus != null)
+		{
 			AkSoundEngine.SetEarlyReflectionsAuxSend(gameObject, reflectionsAuxBus.Id);
+		}
 
 		AkSoundEngine.SetEarlyReflectionsVolume(gameObject, reflectionsVolume);
 	}

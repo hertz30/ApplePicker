@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Platform="WebGL" BasePlatform="Web">
+	<PluginLibs>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{D146DC8E-B9BF-6DB5-1D85-6B0FE5C8DFFB}</FileHash>
+</PluginInfo>

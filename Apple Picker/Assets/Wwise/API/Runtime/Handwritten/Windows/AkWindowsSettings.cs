@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 ﻿#if (UNITY_STANDALONE_WIN && !UNITY_EDITOR) || UNITY_EDITOR_WIN
 public partial class AkCommonUserSettings
 {
@@ -30,6 +31,11 @@ public class AkWindowsSettings : AkWwiseInitializationSettings.PlatformSettings
 	[UnityEditor.InitializeOnLoadMethod]
 	private static void AutomaticPlatformRegistration()
 	{
+		if (UnityEditor.AssetDatabase.IsAssetImportWorkerProcess())
+		{
+			return;
+		}
+
 		RegisterPlatformSettingsClass<AkWindowsSettings>("Windows");
 	}
 #endif // UNITY_EDITOR

@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 [System.Obsolete(AkSoundEngine.Deprecation_2019_2_0)]
 public class AkVector
 {

@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 ﻿#if (UNITY_STANDALONE_OSX && !UNITY_EDITOR) || UNITY_EDITOR_OSX
 public partial class AkCommonUserSettings
 {
@@ -30,6 +31,11 @@ public class AkMacSettings : AkWwiseInitializationSettings.CommonPlatformSetting
 	[UnityEditor.InitializeOnLoadMethod]
 	private static void AutomaticPlatformRegistration()
 	{
+		if (UnityEditor.AssetDatabase.IsAssetImportWorkerProcess())
+		{
+			return;
+		}
+
 		RegisterPlatformSettingsClass<AkMacSettings>("Mac");
 	}
 #endif // UNITY_EDITOR

@@ -15,12 +15,10 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
-
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEditor;
 
-[InitializeOnLoad]
 public static class AkWwiseProjectInfo
 {
 	private const string _dataFileName = "AkWwiseProjectData.asset";

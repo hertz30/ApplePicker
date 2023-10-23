@@ -14,6 +14,7 @@ software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
 Copyright (c) 2023 Audiokinetic Inc.
 *******************************************************************************/
+
 public static class AkWSAUtils
 {
 	[UnityEditor.MenuItem("Assets/Wwise/WSA/Enable PrivateNetworkClientServer Capability")]
