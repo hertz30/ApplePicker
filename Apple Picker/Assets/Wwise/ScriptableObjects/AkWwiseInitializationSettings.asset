@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlatformSettingsNameList:
   - Mac
+  - WebGL
   - Windows
   PlatformSettingsList:
   - {fileID: 11400000, guid: 124b58418c509714d9da70ba5103809a, type: 2}
+  - {fileID: 11400000, guid: c336fa8c717baed43a3eea4af8f30818, type: 2}
   - {fileID: 11400000, guid: 4a6ccd606f9cd1f4fa97fa423b5fac33, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
@@ -42,13 +44,14 @@ MonoBehaviour:
       m_MovementThreshold: 0.1
       m_NumberOfPrimaryRays: 100
       m_MaxReflectionOrder: 1
+      m_MaxDiffractionOrder: 4
+      m_DiffractionOnReflectionsOrder: 2
       m_MaxPathLength: 10000
       m_CPULimitPercentage: 0
       m_EnableDiffractionOnReflections: 1
       m_EnableGeometricDiffractionAndTransmission: 1
       m_CalcEmitterVirtualPosition: 1
-      m_UseObstruction: 1
-      m_UseOcclusion: 1
+      m_LoadBalancingSpread: 1
   AdvancedSettings:
     m_IOMemorySize: 2097152
     m_TargetAutoStreamBufferLengthMs: 380
